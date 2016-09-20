@@ -5,14 +5,6 @@
 
         // Project configuration.
         grunt.initConfig({
-            concat: {
-                options: {},
-                dist: {
-                    src: ['app/src/js/**/*.js'],
-                    dest: 'app/build/js/scripts.js',
-                },
-            },
-						
 			clean: {
 				options:{
 					'no-write': false
@@ -25,7 +17,7 @@
 					fontName: 'newIconFont',
 					normalize: true
 				},
-				your_target: {
+				build: {
 					src: 'src/icons/*.svg',
 					dest: 'build/font/'
 				},

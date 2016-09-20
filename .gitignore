@@ -1,1 +1,3 @@
 /node_modules
+/build/font/*
+*.DS_Store
